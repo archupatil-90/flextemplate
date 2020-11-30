@@ -1,0 +1,105 @@
+.mainbox{
+    width:900px;
+    height:600px;
+    background-color: brown;
+    margin: auto;
+}
+.header{
+    width:900px;
+    height:380px;
+    background-image: url("img.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.section{
+    width:900px;
+height:259px;
+background-color: white;
+
+margin: auto;
+}
+.flex-container {
+    
+   width:80%;
+   
+  display:flex;
+    margin: auto;
+   
+}
+.flex-container .containerleft{
+    width:32.5%;
+    height:400px;
+    background-color:#ffffffbd;
+    float: left;
+    margin-top: -106px;
+    padding-top: 12px;
+
+    
+
+
+}
+
+.flex-container .containercentre{
+    width:32.5%;
+    height:400px;
+    background-color:#ffffffbd;
+    float: left;
+    margin:0% 1.75% ;
+    margin-top: -106px;
+    padding-top: 12px;
+
+          }
+.cardcircle{
+    width: 130px;
+height: 130px;
+border-radius: 100%;
+
+margin: auto;
+}
+#img1{
+    background-image: url(pic1.jpg);
+background-size: cover;
+}
+#img2{
+    background-image: url(pic2.jpg);
+background-size: cover;
+}
+#img3{
+    background-image: url(pic3.jpg);
+background-size: cover;
+}
+
+.content{
+    width: 94%;
+height: 270px;
+background-color: #ffffffbd;
+text-align: center;
+padding:0% 3%;
+}
+h3{
+text-transform: uppercase;
+color: gray;
+}
+p{
+text-transform: capitalize;
+color: skyblue;
+
+}
+i{
+color: gray;
+font-size: 1em;
+padding:5px;
+transition: 1s;
+}
+i:hover{
+
+/* transform: scale(1.5);
+transform: rotateZ(350deg); */
+transform: matrix(1.5,0,0,1.5,10,10);
+color:lightpink;
+}
+span{
+color: gray;
+font-style: italic;
+}
